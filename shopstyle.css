@@ -1,0 +1,130 @@
+/* Hover effect for product boxes */
+.product:hover {
+    transform: scale(1.05);                 /* slightly enlarge the box */
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);  /* stronger shadow */
+    transition: 0.3s ease-in-out;           /* smooth animation */
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+/* Make the navigation bar sticky */
+nav {
+    position: sticky;
+    top: 0;               /* stays at the top */
+    z-index: 1000;        /* ensures it stays above other content */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;       /* dark gray background */
+    padding: 10px 0;             /* space above and below */
+    text-align: center;          /* center the menu items */
+}
+
+nav ul {
+    list-style-type: none;       /* remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;             /* show the items in one line */
+    margin: 0 20px;              /* space between items */
+}
+
+nav ul li a {
+    color: white;                /* white text */
+    text-decoration: none;       /* remove underline */
+    font-weight: bold;           /* make text bold */
+    font-size: 16px;             /* readable size */
+}
+
+nav ul li a:hover {
+    color: #4CAF50;              /* change to green when hovered */
+}
+
+
+/* Header */
+header {
+    background-color:deeppink;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main section */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Category section */
+.category {
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.category h2 {
+    background-color:deeppink;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Product box */
+.product {
+    background-color: white;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:deeppink;
+    color: white;
+    margin-top: 20px;
+}
+/* Hover effect for product boxes */
+.product:hover {
+    transform: scale(1.05);           /* slightly grow the box */
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);  /* stronger shadow */
+    transition: 0.3s ease-in-out;     /* smooth animation */
+}
+/* Section styling */
+.category {
+    padding: 30px 20px;       /* space inside the section */
+    margin: 20px 0;           /* space between sections */
+    background-color: #f9f9f9; /* light gray background for contrast */
+    border-radius: 10px;      /* rounded corners for nicer look */
+}
+
+.category h2 {
+    text-align: center;       /* center the section title */
+    margin-bottom: 20px;
+    color: #333;              /* dark text for headings */
+}
+.product {
+    margin-bottom: 20px;      /* adds space below each product */
+}
+
+
+
